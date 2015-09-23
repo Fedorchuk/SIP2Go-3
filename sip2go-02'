@@ -1,0 +1,274 @@
+<!doctype HTML>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+
+
+		<style>
+		body{
+			font-family: Avenir Next;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		h1{
+			color:white;
+		}
+		#JJlogo{
+
+			position:fixed;
+			width: 100wv;
+			height: 100px;
+		}
+
+		#coffee{
+			background-color:#744C28;
+			text-align: center;
+			height:100vh;
+			padding-top: 400px;
+		}
+
+		#tea{
+			background-color:#68BC45;
+			text-align: center;
+			height:100vh;
+			padding-top: 400px;
+		}
+
+
+
+		#ourLogo{
+			position:fixed;
+			right:0;
+			bottom:0;
+			width:150px;
+			height:100px;
+		}
+
+		#teaCup{
+			padding-top:70px;
+		}
+
+		#circles{
+   		position: fixed;
+    	bottom: 0;
+    	width: 100%;
+    	right: 50%;
+    	left: 40%;
+
+		}
+
+		#circle1 {width:50px;
+		height:50px;
+		border-radius:50px;
+		background-color:white;
+		border:black thin solid;
+		display:inline-block;
+		margin:10px;
+		}
+
+		#circle2 {width:50px;
+		height:50px;
+		border-radius:50px;		
+		background-color:white;
+		border:black thin solid;
+		display:inline-block;
+		margin:10px;
+		}
+
+		#circle3 {width:50px;
+		height:50px;
+		border-radius:50px;
+		background-color:white;
+		border:black thin solid;
+		display:inline-block;
+		margin:10px;
+		}
+
+		#circle4 {width:50px;
+		height:50px;
+		border-radius:50px;
+		background-color:white;
+		border:black thin solid;
+		display:inline-block;
+		margin:10px;
+		}
+
+				/* Iphone(landscape) ----------- */
+@media only screen and (min-width : 320px) and (max-width : 960px) {
+
+		#coffee{
+			background-color:#744C28;
+			text-align: center;
+			height:100vh;
+			padding-top: 100px;
+		}
+
+		#tea{
+			background-color:#68BC45;
+			text-align: center;
+			height:100vh;
+			padding-top: 100px;
+		}
+
+		#teaCup{
+			width:150px;
+			height:170px;
+			padding-top: 130px;
+		}
+
+		#coffeeCup{
+			width:200px;
+			height:200px;
+			padding-top: 100px;
+			
+		}
+
+		#ourLogo{
+		width:100px;
+		height:60px;
+
+		}
+
+		#circles{
+   		position: fixed;
+    	bottom: 0;
+    	width: 100%;
+    	right: 30%;
+    	left: 30%;
+
+		}
+
+		#circle1,
+		#circle2,
+		#circle3,
+		#circle4 {
+			width:30px;
+			height:30px;
+		}
+
+}
+
+
+
+/* Ipad ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+		#coffee{
+			padding-top: 100px;
+		}
+
+		#tea{
+			padding-top: 100px;
+		}
+		#teaCup,
+		#coffeeCup{
+			width:250px;
+			height:400px;
+			margin:0;
+
+
+		}
+
+}
+
+		</style>
+
+
+	</head>
+
+  <body>
+
+
+
+   <div id="JJlogo">
+    	<a href="https://jjbeancoffee.com/"><img id="JJlogo" src="pics/jjbean-logo copy.png"></img></a>
+   </div>
+
+
+  	 <div class="pure-g">
+		<div class="pure-u-1-2" id="coffee">
+    		<a href="sip2go-02">
+	  			<img id="coffeeCup" src="pics/beans.png"> 
+	  			<p> <h1>COFFEE</h1> </p>
+	  		</a>
+    	</div>
+
+    	<div class="pure-u-1-2" id="tea"> 
+			<a href="sip2go-02">
+	  			<img id="teaCup" src="pics/tea-logo.png">
+	  			<figcaption> <h1>TEA</h1> </figcaption>
+	  		</a>
+    	</div>
+	</div>
+
+
+	 <div id="ourLogo">
+	 	<img id="ourLogo" src="pics/first-page-logo.png">
+	 </div>
+
+
+	 <div id="circles">
+		<button id="circle1"></button>
+		<button id="circle2"></button>
+		<button id="circle3"></button>
+		<button id="circle4"></button>
+	</div>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+	<script>
+
+	//fade in effect
+
+	$(document).ready(function() {
+
+	$('body').css('display', 'none');
+
+	$('body').fadeIn(1000);
+
+	});
+
+// end of fade in
+
+// bottom bar
+
+$(document).ready(function(){
+
+
+$("#circle2").css("background-color", "#68BC45");
+
+	$('#circle1').click(function(){
+		window.location = "sip2go-01";   
+	});
+
+
+	$('#circle2').click(function(){
+		window.location = "sip2go-02'";   
+	});
+
+
+	$('#circle3').click(function(){
+		window.location = "sip2go-03";   
+	});
+
+	$('#circle4').click(function(){
+		window.location = "sip2go-04.html";   
+	});
+});
+
+// end of bottom bar
+
+	</script>
+  </body>
+</html>

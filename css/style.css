@@ -1,0 +1,756 @@
+
+body{
+  width:100%;
+
+}
+#right{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 1250px;
+  background-color:#d5cdba;
+
+}
+
+#left{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 1250px;
+  background-color:#e4e0d7;
+}
+
+/*--------left side css-------*/
+
+#store{
+  width:300px;
+
+}
+
+#map{
+  padding-left:30%;
+  font-family:"avenir next";
+  font-size:18px;
+}
+
+#date, #time{
+  padding-left:30%;
+  margin-top:20px;
+}
+
+#datepicker, #timepicker{
+  padding-top:10px;
+
+}
+
+#pulocation{
+  padding-left:30%;
+  font-size:36px;
+  padding-top:20px;
+    font-family:"avenir next";
+}
+
+#putime{
+   padding-top:40px;
+    padding-left:30%;
+  font-size:36px;
+    font-family:"avenir next";
+}
+
+#addanother{
+  font-size:24px;
+  position:absolute;
+  bottom:6%;
+  right:2%;
+    font-family:"avenir next";
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 2px;
+}
+
+#location{
+  padding-left:30%;
+}
+
+.place{
+  font-family:"avenir next";
+  font-size:20px;
+}
+
+
+
+
+
+
+/*------right side css------*/
+.pure-menu-horizontal{
+  width:50px;
+  margin:5px 70px;
+  clear:both;
+  float:right;
+
+}
+
+#menuLink1{
+  font-size:24px;
+  font-family:"avenir next";
+}
+
+.pure-menu-link{
+  font-size:18px;
+  font-family:"avenir next";
+}
+
+#logo{
+  position:absolute;
+  bottom:0;
+  right:10%;
+}
+
+#checkout{
+  font-size:36px;
+  padding-top:140px;
+  font-family:"avenir next";
+  text-align: center;
+}
+
+#signup{
+  width:100%;
+  font-size:28px;
+  font-family:"avenir next";
+  text-align:center;
+
+}
+
+
+.or{
+  font-family:"avenir next";
+  text-align:center;
+  padding-top:3%;
+  font-size:18px;
+}
+
+
+#fillout{
+  text-align:center;
+  font-family:"avenir next";
+  font-size:36px;
+  padding-top:1.5%;
+}
+
+
+#firstname, #lastname, #creditcard, #expirydate, #phonenumber, #cvv, #cellnumber, #email{
+  width:50%;
+  margin: 0 auto;
+  padding-top:10px;
+}
+
+#done{
+  font-size:24px;
+  position:absolute;
+  bottom:6%;
+  left:2%;
+  font-family:"avenir next";
+    -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  padding: 2px;
+}
+
+#test{
+  padding-top:7%;
+}
+
+#test2{ /* QUESTION MARK*/
+  position:relative;
+  left:40%;
+  bottom:7%;
+  width:10px;
+}
+
+#question{
+  opacity:0.3;
+}
+
+
+#payment{
+  padding-top:5%;
+  width:60%;
+  margin:0 auto;
+  text-align:center;
+}
+
+
+#reqfield{
+  padding-left:13%;
+}
+
+#req{
+  font-family:"avenir next";
+  font-size:16px;
+  opacity:0.8;
+}
+
+#termsconditions{
+  border:double black;
+  background-color:white;
+  width:350px;
+  margin:0 auto;
+}
+
+.termsconditions{
+  margin-top:3%;
+}
+
+
+.TnC{
+  font-family:"avenir next";
+  font-size:16px;
+  text-align:center;
+
+}
+
+
+    #circles1{
+      position:absolute;
+      bottom:0;
+      right:0;
+
+    }
+
+    #circles2{
+      position: absolute;
+      bottom: 0;
+
+
+    }
+
+    #circle1 {width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:white;
+    border:black thin solid;
+    display:inline-block;
+    margin:10px;
+    }
+
+    #circle2 {width:50px;
+    height:50px;
+    border-radius:50px;   
+    background-color:white;
+    border:black thin solid;
+    display:inline-block;
+    margin:10px;
+    }
+
+    #circle3 {width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:white;
+    border:black thin solid;
+    display:inline-block;
+    margin:10px;
+    }
+
+    #circle4 {width:50px;
+    height:50px;
+    border-radius:50px;
+    background-color:white;
+    border:black thin solid;
+    display:inline-block;
+    margin:10px;
+    }
+
+/*-------------------------------------MAX WIDTH 960PX------------------------------------------*/
+@media only screen and (min-width : 601px) and (max-width : 960px) {
+
+      #circles{
+      position: fixed;
+        bottom: 0;
+        width: 100%;
+        right: 30%;
+        left: 30%;
+
+    }
+
+    #circle1,
+    #circle2,
+    #circle3,
+    #circle4 {
+      width:30px;
+      height:30px;
+    }
+::-webkit-input-placeholder{
+  font-size:9px;
+}
+
+body{
+  width:100%;
+
+}
+#right{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 960px;
+  background-color:#d5cdba;
+
+}
+
+#left{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 960px;
+  background-color:#e4e0d7;
+}
+
+
+    /*--------left side css-------*/
+#emptyp2{
+  font-size:18px;
+}
+
+
+#store{
+  width:200px;
+
+}
+
+#map{
+  padding-left:20%;
+  font-family:"avenir next";
+  font-size:15px;
+}
+
+#date, #time{
+  padding-left:20%;
+  margin-top:20px;
+}
+
+#datepicker, #timepicker{
+  padding-top:0px;
+
+}
+
+#pulocation{
+  padding-left:20%;
+  font-size:20px;
+  padding-top:15px;
+    font-family:"avenir next";
+}
+
+#putime{
+   padding-top:40px;
+    padding-left:20%;
+  font-size:20px;
+    font-family:"avenir next";
+}
+
+#addanother{
+  font-size:15px;
+  position:absolute;
+  bottom:4%;
+  right:2%;
+    font-family:"avenir next";
+}
+
+#location{
+  padding-left:20%;
+}
+
+.place{
+  font-family:"avenir next";
+  font-size:15px;
+}
+
+
+
+/*------right side css------*/
+.pure-menu-horizontal{
+  width:50px;
+  margin:5px 70px;
+  clear:both;
+  float:right;
+
+}
+
+#menuLink1{
+  font-size:20px;
+  font-family:"avenir next";
+}
+
+.pure-menu-link{
+  font-size:15px;
+  font-family:"avenir next";
+}
+
+#logo{
+  position:absolute;
+  bottom:0;
+  right:10%;
+  height:45px;
+}
+
+#checkout{
+  font-size:20px;
+  padding-top:140px;
+  font-family:"avenir next";
+  text-align: center;
+}
+
+#signup{
+  width:100%;
+  font-size:15px;
+  font-family:"avenir next";
+  text-align:center;
+
+}
+
+
+.or{
+  font-family:"avenir next";
+  text-align:center;
+  padding-top:3%;
+  font-size:15px;
+}
+
+
+#fillout{
+  text-align:center;
+  font-family:"avenir next";
+  font-size:20px;
+  padding-top:1.5%;
+}
+
+
+#firstname, #lastname, #creditcard, #expirydate, #phonenumber, #cvv, #cellnumber, #email{
+  width:50%;
+  margin: 0 auto;
+  padding-top:10px;
+}
+
+
+#done{
+  font-size:15px;
+  position:absolute;
+  bottom:4%;
+  left:2%;
+  font-family:"avenir next";
+}
+
+#test{
+  padding-top:7%;
+}
+
+#test2{ /* QUESTION MARK*/
+  position:relative;
+  left:40%;
+  bottom:7%;
+  width:10px;
+}
+
+#question{
+  opacity:0.3;
+}
+
+#ppal, #amex, #mcard, #inter{
+  height:30px;
+}
+
+#payment{
+  padding-top:5%;
+  width:60%;
+  margin:0 auto;
+  text-align:center;
+}
+
+
+#reqfield{
+  padding-left:13%;
+}
+
+#req{
+  font-family:"avenir next";
+  font-size:15px;
+  opacity:0.8;
+}
+
+#termsconditions{
+  border:double black;
+  background-color:white;
+  width:280px;
+  margin:0 auto;
+}
+
+.termsconditions{
+  margin-top:3%;
+}
+
+
+.TnC{
+  font-family:"avenir next";
+  font-size:13px;
+  text-align:center;
+
+}
+
+}
+
+/*-----------------------------------------MAX WIDTH 600PX-------------------------------------*/
+@media only screen and (max-width : 600px) {
+ 
+       #circles{
+      position: fixed;
+        bottom: 0;
+        width: 100%;
+        right: 30%;
+        left: 30%;
+
+    }
+
+    #circle1,
+    #circle2,
+    #circle3,
+    #circle4 {
+      width:25px;
+      height:25px;
+    }
+
+ ::-webkit-input-placeholder{
+  font-size:9px;
+}
+
+#jjbean{
+  height:75px;
+}
+
+body{
+  width:100%;
+
+}
+#right{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 960px;
+  background-color:#d5cdba;
+
+}
+
+#left{
+  position:relative;
+  top:0;
+  left:0;
+  width: 50%;
+  height: 960px;
+  background-color:#e4e0d7;
+}
+
+
+    /*--------left side css-------*/
+#emptyp2{
+  font-size:15px;
+}
+
+
+#store{
+  width:150px;
+
+}
+
+#map{
+  padding-left:10%;
+  font-family:"avenir next";
+  font-size:15px;
+}
+
+#date, #time{
+  padding-left:10%;
+  margin-top:20px;
+}
+
+#datepicker, #timepicker{
+  padding-top:0px;
+
+}
+
+#pulocation{
+  padding-left:10%;
+  font-size:20px;
+  padding-top:15px;
+    font-family:"avenir next";
+}
+
+#putime{
+   padding-top:40px;
+    padding-left:20%;
+  font-size:20px;
+    font-family:"avenir next";
+}
+
+#addanother{
+  font-size:15px;
+  position:absolute;
+  bottom:4%;
+  right:2%;
+    font-family:"avenir next";
+}
+
+#location{
+  padding-left:10%;
+}
+
+.place{
+  font-family:"avenir next";
+  font-size:15px;
+}
+
+
+
+/*------right side css------*/
+.pure-menu-horizontal{
+  width:50px;
+  margin:5px 70px;
+  clear:both;
+  float:right;
+
+}
+
+#menuLink1{
+  font-size:20px;
+  font-family:"avenir next";
+}
+
+.pure-menu-link{
+  font-size:15px;
+  font-family:"avenir next";
+}
+
+#logo{
+  position:absolute;
+  bottom:0;
+  right:10%;
+  height:45px;
+}
+
+#checkout{
+  font-size:20px;
+  padding-top:140px;
+  font-family:"avenir next";
+  text-align: center;
+}
+
+#signup{
+  width:100%;
+  font-size:15px;
+  font-family:"avenir next";
+  text-align:center;
+
+}
+
+
+.or{
+  font-family:"avenir next";
+  text-align:center;
+  padding-top:3%;
+  font-size:15px;
+}
+
+
+#fillout{
+  text-align:center;
+  font-family:"avenir next";
+  font-size:20px;
+  padding-top:1.5%;
+}
+
+
+#firstname, #lastname, #creditcard, #expirydate, #phonenumber, #cvv, #cellnumber, #email{
+  width:50%;
+  margin: 0 auto;
+  padding-top:10px;
+}
+
+
+#done{
+  font-size:15px;
+  position:absolute;
+  bottom:4%;
+  left:2%;
+  font-family:"avenir next";
+}
+
+#test{
+  padding-top:7%;
+
+}
+
+
+#test2{ /* QUESTION MARK*/
+  position:relative;
+  left:40%;
+  bottom:7%;
+  width:10px;
+}
+
+#question{
+  opacity:0.3;
+}
+
+#ppal, #amex, #mcard, #inter{
+  height:30px;
+}
+
+#payment{
+  padding-top:5%;
+  width:60%;
+  margin:0 auto;
+  text-align:center;
+}
+
+
+#reqfield{
+  padding-left:13%;
+}
+
+#req{
+  font-family:"avenir next";
+  font-size:15px;
+  opacity:0.8;
+}
+
+#termsconditions{
+  border:double black;
+  background-color:white;
+  width:150px;
+  margin:0 auto;
+}
+
+.termsconditions{
+  margin-top:3%;
+}
+
+
+.TnC{
+  font-family:"avenir next";
+  font-size:13px;
+  text-align:center;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+

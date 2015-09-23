@@ -1,0 +1,243 @@
+
+#full {
+  height: 100vh;
+  width: 100vw;
+}
+
+#jj_logo {
+  display: block;
+  position: absolute;
+}
+
+#left {
+  background-color: #e4e0d7;
+}
+
+#right {
+  background-color: #d5cbba;
+}
+
+.titles {
+  font-family: "Avenir Next";
+  padding: 100px 0px 20px 30px;
+  font-size: 36px;
+}
+
+.drink_title {
+  font-family: "Avenir Next";
+  padding: 30px 0px 15px 0px;
+  font-size: 28px;
+}
+
+.coffee_selection {
+  padding: 0px 0px 0px 30px;
+}
+
+.select {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  padding: 3px 0px 0px 5px;
+}
+
+#sizes {
+  padding: 20px 0px 0px 30px;
+}
+
+#small_btn, #med_btn, #lrg_btn {
+  display: none;
+}
+
+#sizes input {
+  padding: 0px 10px 0px 0px;
+}
+
+
+/* Right Side */
+
+#ord #size {
+  width: 80%;
+  margin: auto;
+}
+
+#r_title {
+  padding-bottom: 100px;
+}
+
+#size_disp {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#drink_name {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  padding-left: 30px;
+}
+
+#logo {
+  position:absolute;
+  bottom:1%;
+  right:3%;
+}
+
+#price {
+  font-family: "Avenir Next";
+  font-size: 20px;
+  padding-left: 180px;
+}
+
+#next {
+  font-family: "Avenir Next";
+  position: absolute;
+  bottom: 10%;
+  left: 85%;
+  display: none;
+  background-color: #ad9b82;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border: 5px solid #c1b9aa;
+  padding: 5px;
+
+}
+
+
+#circles1 {
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+}
+
+#circles2 {
+  position: absolute;
+  bottom: 0;
+}
+
+#circle1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: black thin solid;
+    display: inline-block;
+    margin: 10px;
+  }
+
+    #circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;   
+    background-color: white;
+    border: black thin solid;
+    display: inline-block;
+    margin: 10px;
+  }
+
+    #circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: green;
+    border: black thin solid;
+    display: inline-block;
+    margin: 10px;
+  }
+
+    #circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    border: black thin solid;
+    display: inline-block;
+    margin: 10px;
+  }
+
+/* Media Query ----------------------------------- 960px */
+
+
+@media only screen and (min-width: 601px) and (max-width: 960px) {
+  .titles {
+    font-size: 20px;
+  }
+
+  .drink_title {
+    font-size: 20px;
+  }
+
+  .select {
+    font-size: 15px;
+  }
+
+  #drink_name {
+    font-size: 15px;
+  }
+
+  #size_disp {
+    font-size: 15px;
+  }
+
+  #price {
+    font-size: 15px;
+  }
+
+  #next {
+    bottom: 25%;
+  }
+
+  #circle1,
+  #circle2,
+  #circle3,
+  #circle4 {
+    width:30px;
+    height:30px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .titles {
+    font-size: 15px;
+  }
+
+  .drink_title {
+    font-size: 15px;
+  }
+
+  .select {
+    font-size: 12px;
+  }
+
+  #drink_name {
+    font-size: 12px;
+  }
+
+  #size_disp {
+    font-size: 12px;
+  }
+
+  #price {
+    font-size: 12px;
+    padding-left: 100px;
+  }
+
+  #next {
+    bottom: 35%;
+  }
+
+  #circle1,
+  #circle2,
+  #circle3,
+  #circle4 {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+
+
+
+
+
+
+
